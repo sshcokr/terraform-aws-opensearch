@@ -139,7 +139,7 @@ variable "vpc_options" {
 
 variable "package_associations" {
   description = "Map of package association IDs to associate with the domain"
-  type        = map(string)
+  type        = any
   default     = {}
 }
 
